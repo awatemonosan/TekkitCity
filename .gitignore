@@ -1,7 +1,7 @@
-**/**.gz
-**/**.zip
-**/*.*_old
-**/logs
-**/*.lck
-**/*.lock
-**/*.log
+*.gz
+*.zip
+*.*_old
+/logs
+*.lck
+*.lock
+*.log
