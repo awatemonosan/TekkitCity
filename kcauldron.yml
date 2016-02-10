@@ -1,32 +1,32 @@
-# Setting: common.allowNetherPortalBesidesOverworld Default: false # Allow nether portals in dimensions besides overworld
-# Setting: updatechecker.quiet Default: false # Print less info during update
-# Setting: common.fastLeavesDecay.enable Default: false # Enable fast decaying of leaves, not affects drop chanches /etc
 # Setting: updatechecker.symlinks Default: KCauldron.jar # (Re)create symlinks after update
-# Setting: common.fastLeavesDecay.maxTickTime Default: 10 # Minimal amount of tick between block updates
+# Setting: common.allowNetherPortalBesidesOverworld Default: false # Allow nether portals in dimensions besides overworld
 # Setting: updatechecker.enable Default: true # Enable KCauldron update checker
-# Setting: updatechecker.autorestart Default: false # Restart server after updating without confirming (set restart script in spigot.yml)
-# Setting: logging.materialInjection Default: false # Log material injection event
-# Setting: experimental.tileEntityListRecreation Default: false # EXPERIMENTAL! Recreate list of TE each tick.
+# Setting: updatechecker.quiet Default: false # Print less info during update
+# Setting: common.fastLeavesDecay.maxTickTime Default: 10 # Minimal amount of tick between block updates
 # Setting: logging.clientModList Default: true # Print client's mod list during attempt to join
-# Setting: command.enable Default: true # Enable KCauldron command
 # Setting: updatechecker.autoinstall Default: false # Install updates without confirming
+# Setting: experimental.tileEntityListRecreation Default: false # EXPERIMENTAL! Recreate list of TE each tick.
+# Setting: command.enable Default: true # Enable KCauldron command
+# Setting: common.fastLeavesDecay.enable Default: false # Enable fast decaying of leaves, not affects drop chanches /etc
 # Setting: common.fastLeavesDecay.minTickTime Default: 5 # Minimal amount of tick between block updates
+# Setting: logging.materialInjection Default: false # Log material injection event
+# Setting: updatechecker.autorestart Default: false # Restart server after updating without confirming (set restart script in spigot.yml)
 
+updatechecker:
+  symlinks: KCauldron.jar
+  enable: true
+  quiet: false
+  autoinstall: false
+  autorestart: false
 common:
   allowNetherPortalBesidesOverworld: false
   fastLeavesDecay:
-    enable: false
     maxTickTime: 10
+    enable: false
     minTickTime: 5
-updatechecker:
-  quiet: false
-  symlinks: KCauldron.jar
-  enable: true
-  autorestart: false
-  autoinstall: false
 logging:
-  materialInjection: false
   clientModList: true
+  materialInjection: false
 experimental:
   tileEntityListRecreation: false
 command:

@@ -612,3 +612,16 @@
 2016-02-09 16:15:39 [INFO] [Multiverse-Core] Loading World & Settings - 'city' - Env: NORMAL - Type: NORMAL & seed: 7675692959141643495 & generator: CityWorld
 2016-02-09 16:15:41 [INFO] [Multiverse-Core] Loading World & Settings - 'skytest2' - Env: NORMAL - Type: NORMAL & seed: 8510840887123041092
 2016-02-09 16:15:41 [INFO] [Multiverse-Core] 8 - World(s) loaded.
+2016-02-10 12:33:08 [INFO] [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+2016-02-10 12:33:08 [INFO] [Multiverse-Core] Loading World & Settings - 'hub' - Env: THE_END - Type: FLAT & seed: 7370343306682271369
+2016-02-10 12:33:10 [INFO] [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 7370343306682271369
+2016-02-10 12:33:10 [WARNING] [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+2016-02-10 12:33:10 [WARNING] [Multiverse-Core] Original Location: X: 0 Y: 63 Z: -1 P: 0 Y: 0 
+2016-02-10 12:33:10 [INFO] [Multiverse-Core] New Spawn for 'world' is Located at: world:5.50,63.00,4.50:0.00:0.00
+2016-02-10 12:33:11 [INFO] [Multiverse-Core] Loading World & Settings - 'DIM1' - Env: THE_END - Type: NORMAL & seed: 7370343306682271369
+2016-02-10 12:33:13 [INFO] [Multiverse-Core] Loading World & Settings - 'DIM-1' - Env: NETHER - Type: NORMAL & seed: 7370343306682271369
+2016-02-10 12:33:20 [INFO] [Multiverse-Core] Loading World & Settings - 'amplified' - Env: NORMAL - Type: AMPLIFIED & seed: 7456589118616369233
+2016-02-10 12:33:37 [INFO] [Multiverse-Core] Loading World & Settings - 'stronghold' - Env: NORMAL - Type: FLAT & seed: -7465197050576712854
+2016-02-10 12:33:56 [INFO] [Multiverse-Core] Loading World & Settings - 'city' - Env: NORMAL - Type: NORMAL & seed: 7675692959141643495 & generator: CityWorld
+2016-02-10 12:34:12 [INFO] [Multiverse-Core] Loading World & Settings - 'skytest2' - Env: NORMAL - Type: NORMAL & seed: 8510840887123041092
+2016-02-10 12:34:30 [INFO] [Multiverse-Core] 8 - World(s) loaded.

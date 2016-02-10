@@ -1,23 +1,23 @@
 uuid: 590b284b-7e58-4625-ae1f-d99448770cf9
 timestamps:
-  login: 1455063358826
-  logout: 1454979139399
-  lastteleport: 1454978876010
-ipAddress: 127.0.0.1
+  login: 1455127273014
+  logout: 1455127241856
+  lastteleport: 1455128695151
+ipAddress: 73.231.79.75
 godmode: true
 logoutlocation:
-  world: city
-  x: -22.826011034553563
-  y: 77.14528396828
-  z: -116.8967883137636
-  yaw: 274.34937
-  pitch: 0.75015074
+  world: world
+  x: 175.6021990209637
+  y: 104.4886830025657
+  z: -332.9652515937973
+  yaw: 78.14993
+  pitch: 40.499935
 lastlocation:
-  world: stronghold
-  x: 6.975996114357968
-  y: 64.0
-  z: 85.83855993259036
-  yaw: -56.699997
-  pitch: -0.44999853
+  world: world
+  x: 1682.1228141785411
+  y: 103.19385020400527
+  z: -124.52412174962122
+  yaw: 183.74683
+  pitch: 38.549995
 afk: true
 money: '100000000'
