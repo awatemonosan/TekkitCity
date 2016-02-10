@@ -1,0 +1,8 @@
+stronghold
+skytest2
+hub
+world
+city
+amplified
+DIM1
+DIM-1

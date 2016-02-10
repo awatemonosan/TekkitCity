@@ -1,0 +1,11 @@
+lastOnline=1455063358795
+registered=1454958779899
+isNPC=false
+title=
+surname=
+town=TekkitCity
+town-ranks=
+nation-ranks=
+friends=
+
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse

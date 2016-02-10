@@ -1,0 +1,20 @@
+lastlocation:
+  world: stronghold
+  x: -3.5277186604216695
+  y: 64.0
+  z: 59.997009690861816
+  yaw: 18.150074
+  pitch: 6.450003
+uuid: 8aa4ca87-810c-45f5-9bfe-40de51712e51
+timestamps:
+  login: 1455057882643
+  logout: 1455059293990
+ipAddress: 10.0.0.107
+godmode: false
+logoutlocation:
+  world: amplified
+  x: -218.30000001192093
+  y: 85.0
+  z: 116.6805688388652
+  yaw: 25.640503
+  pitch: -3.1499963

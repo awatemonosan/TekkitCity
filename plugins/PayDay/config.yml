@@ -1,0 +1,20 @@
+# Generated 2016-02-09 15:28:02.532
+# For help consult http://dev.bukkit.org/server-mods/payday/
+message: You just got %a for being online %t minutes.
+paycheck-message: Your next payday is in %t minutes.
+use_vault: true
+reward_item: 264
+use_essentials: false
+groups:
+- vip
+- normal
+normal:
+  time: 5
+  amount: 10
+  interest: 0.5
+vip:
+  time: 5
+  amount: 15
+  interest: 2.5
+restricted_worlds: []
+version: 1.6.1

@@ -1,0 +1,51 @@
+groups:
+  limited: {}
+  member:
+    inheritance: []
+    permissions:
+    - auction.bid
+    - auction.start
+    - payday.normal
+    - modifyworld.*
+    - essentials.chat.shout
+    options:
+      default: 'true'
+    worlds:
+      start:
+        permissions:
+        - auction
+  vip:
+    inheritance:
+    - donator
+  donator:
+    inheritance:
+    - member
+    permissions:
+    - payday.vip
+  staff:
+    inheritance:
+    - vip
+    permissions:
+    - auction.admin
+  moderator:
+    inheritance:
+    - staff
+  admin:
+    inheritance:
+    - moderator
+    permissions:
+    - bukkit.command.op.give
+  owner:
+    inheritance:
+    - admin
+schema-version: 1
+users:
+  8aa4ca87-810c-45f5-9bfe-40de51712e51:
+    options:
+      name: cabbageyful
+  590b284b-7e58-4625-ae1f-d99448770cf9:
+    options:
+      name: awatemonosan
+    group:
+    - admin
+    permissions: []

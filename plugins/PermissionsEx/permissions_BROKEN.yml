@@ -1,0 +1,80 @@
+groups:
+  common:
+    permissions:
+    - modifyworld.login
+    - modifyworld.chat
+  limited:
+    options:
+      rank: '8000'
+    permissions:
+    - -*
+    - modifyworld.login
+    - modifyworld.chat
+    - modifyworld.damage.take.group.VIP
+  guest:
+    options:
+      default: true
+      rank: '7000'
+    inheritance:
+    - common
+    permissions:
+    - -essentials.signs.*
+    - essentials.signs.use.*
+    worlds:
+      world:
+        permissions:
+        - -modifyworld.*
+      wild:
+        permissions:
+        - modifyworld.*
+      city:
+        permissions:
+        - -modifyworld.*
+      hard:
+        permissions:
+        - modifyworld.*
+  member:
+    options:
+      default: true
+      rank: '6000'
+    inheritance:
+    - guest
+    worlds:
+      city:
+        permissions:
+        - modifyworld.*
+  VIP:
+    options:
+      rank: '5000'
+    inheritance:
+    - member
+  moderator:
+    options:
+      rank: '4000'
+    inheritance:
+    - VIP
+  staff:
+    options:
+      rank: '3000'
+    inheritance:
+    - moderator
+  admin:
+    options:
+      rank: '2000'
+    inheritance:
+    - moderator
+    permissions:
+    - essentials.signs.*
+  owner:
+    options:
+      rank: '1000'
+    inheritance:
+    - admin
+    worlds:
+      world:
+        permissions:
+        - modifyworld.*
+  GOD:
+    permissions:
+    - *.*
+schema-version: 1

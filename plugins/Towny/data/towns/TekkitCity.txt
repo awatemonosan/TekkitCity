@@ -1,0 +1,25 @@
+name=TekkitCity
+residents=awatemonosan
+mayor=awatemonosan
+assistants=
+
+
+townBoard=/town set board [msg]
+tag=
+protectionStatus=residentBuild,residentDestroy,residentSwitch,residentItemUse,pvp
+bonusBlocks=0
+purchasedBlocks=0
+taxpercent=false
+taxes=0.0
+plotPrice=0.0
+plotTax=0.0
+commercialPlotPrice=0.0
+commercialPlotTax=0.0
+embassyPlotPrice=0.0
+embassyPlotTax=0.0
+hasUpkeep=true
+open=false
+adminDisabledPvP=false
+public=true
+homeBlock=city,5,-6
+spawn=city,80.51026682281048,66.0,-81.58478558967451,-10.049951,44.551086

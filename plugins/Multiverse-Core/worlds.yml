@@ -1,0 +1,282 @@
+worlds:
+  hub:
+    seed: 7370343306682271369
+    environment: THE_END
+    type: FLAT
+    hidden: false
+    alias:
+      name: Hub World
+      color: WHITE
+    pvp: false
+    scale: 1.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: HARD
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -45.0
+      y: 67.0
+      z: 248.0
+      pitch: 0.0
+      yaw: 0.0
+      world: world
+    autoload: true
+    bedrespawn: true
+  world:
+    seed: 7370343306682271369
+    environment: NORMAL
+    type: NORMAL
+    hidden: false
+    alias:
+      name: Normal World
+      color: WHITE
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: PEACEFUL
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: false
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 0.3603305150639606
+      y: 63.0
+      z: -0.14467841500538084
+      pitch: 12.900001
+      yaw: 67.349304
+      world: world
+    autoload: true
+    bedrespawn: true
+  DIM1:
+    seed: 7370343306682271369
+    environment: THE_END
+    type: NORMAL
+    hidden: false
+    alias:
+      name: Ender World
+      color: WHITE
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: HARD
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: false
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 0.0
+      y: 64.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+      world: DIM1
+    autoload: true
+    bedrespawn: true
+  DIM-1:
+    seed: 7370343306682271369
+    environment: NETHER
+    type: NORMAL
+    hidden: false
+    alias:
+      name: Nether World
+      color: WHITE
+    pvp: true
+    scale: 8.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: HARD
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: false
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -2.0
+      y: 64.0
+      z: -2.0
+      pitch: 0.0
+      yaw: 0.0
+      world: DIM-1
+    autoload: true
+    bedrespawn: true
+  amplified:
+    seed: 7456589118616369233
+    environment: NORMAL
+    type: AMPLIFIED
+    hidden: false
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -5.300000011920895
+      y: 62.0
+      z: 0.9159647430396869
+      pitch: 14.550003
+      yaw: 89.3999
+      world: amplified
+    autoload: true
+    bedrespawn: true
+  stronghold:
+    seed: -7465197050576712854
+    environment: NORMAL
+    type: FLAT
+    hidden: false
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -3.5469984206897704
+      y: 64.0
+      z: 61.98100336161322
+      pitch: 0.30000213
+      yaw: 180.15002
+      world: stronghold
+    autoload: true
+    bedrespawn: true
+  city:
+    generator: CityWorld
+    seed: 7675692959141643495
+    environment: NORMAL
+    type: NORMAL
+    hidden: false
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 80.60737139750778
+      y: 66.0
+      z: -79.38186470859074
+      pitch: -12.750001
+      yaw: 48.89987
+      world: city
+    autoload: true
+    bedrespawn: true
+  skytest2:
+    seed: 8510840887123041092
+    environment: NORMAL
+    type: NORMAL
+    hidden: false
+    alias:
+      name: ''
+      color: WHITE
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: -252.0
+      y: 64.0
+      z: 240.0
+      pitch: 0.0
+      yaw: 0.0
+      world: skytest2
+    autoload: true
+    bedrespawn: true
