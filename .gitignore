@@ -1,3 +1,6 @@
+**/*.zip
+**/*.*_old
 **/logs
+**/*.lck
 **/*.lock
 **/*.log
